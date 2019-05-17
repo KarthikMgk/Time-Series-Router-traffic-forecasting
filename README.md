@@ -11,5 +11,9 @@ Dataset was given by CanGo Networks pvt ltd. It consists of KPI, ne_date, ne_id,
 ## Techniques I tried
 I started with AR and Arima since we had hourly predictions for a month. But unfortunately, both of these models were not able to capture the dynamics in the data. Hence I posed this as a regression problem, I created some more features and did regression using XGBoost regressor and the results were great!
 
+## Evaluation Criteria
+I used MSE and MAE as metrics for this problem since we are regresing the data
+
+
 ## Resources
 I used kaggle, google and some stackexchanges to get help from as usual

@@ -5,3 +5,6 @@ This problem was a part of my internship interview at CanGo Networks pvt ltd, Ch
 
 # Overview of dataset
 Dataset was given by CanGo Networks pvt ltd. It consists of KPI, ne_date, ne_id, ne_hour, metric and the value. Here value is our predictor variable. There are 5 network devices in the data for which we will have to forecast their value for the next 2 or 3 days. Dataset has 3600 odd records and 6 features
+
+# Techniques I tried
+I started with AR and Arima since we had hourly predictions for a month. But unfortunately, both of these models were not able to capture the dynamics in the data. Hence I posed this as a regression problem, I created some more features and did regression using XGBoost regressor and the results were great!

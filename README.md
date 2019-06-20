@@ -17,3 +17,6 @@ I used MSE and MAE as metrics for this problem since we are regresing the data
 
 ## Resources
 I used kaggle, google and some stackexchanges to get help from as usual
+
+## Author
+Karthikeyan MG
